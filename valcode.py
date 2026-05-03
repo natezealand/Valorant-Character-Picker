@@ -30,7 +30,8 @@ valchars = [
   "Vyse",
   "Tejo",
   "Waylay",
-  "Veto"
+  "Veto",
+  "Miks"
 ]
 
 # ------------------------------------------------------------------------------
@@ -45,14 +46,10 @@ def yes_no(question):
             input()
             break
 
-        elif response == "no" or response == "n":
-            print("kys (press enter to close)")
+        else:
+            print("you're literally stupid i said type Y  (press enter to close)")
             input()
             break
-
-        else:
-            print("you're literally stupid i said type Y")
-            print()
 
 # ------------------------------------------------------------------------------
 #ask the user
